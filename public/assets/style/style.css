@@ -65,25 +65,28 @@ body{
      font-family: "Fondamento";
   }
 
+  #topnav a{
+    border-radius: 100px;
+    margin-left: 25px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+  }
+
   /* Change the color of links on hover */
   #topnav a:hover {
     background-color: rgb(231, 113, 102);
     color: black;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-radius: 100px;
   }
 
    /* Add an active class to highlight the current page */
    #topnav a.active {
      background-color: #E94B3CFF;
      color:#FFFFFFFF;
-     border-bottom-right-radius: 5px;
-     border-bottom-left-radius: 5px;
-     border-top-right-radius: 5px;
-     border-top-left-radius: 5px;
      font-family: "Fondamento";
+     border-radius: 100px;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
    }
 
    /* Hide the link that should open and close the topnav on small screens */
