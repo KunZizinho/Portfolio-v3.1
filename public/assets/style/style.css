@@ -197,7 +197,19 @@ body{
     background-size: cover;
     }
 
-   #commingSoon {
+    #countDownComingSoon{
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      font-size: 50px;
+    }
+
+   /* #commingSoon {
      font-family: "Raleway", sans-serif;
      padding-top: 250px;
      padding-left: 100px;
@@ -212,7 +224,7 @@ body{
      font-size: 80px;
      font-weight: 80px;
      color: darkred;
-   }
+   } */
 
 /* ovdje bar stil zavrsava */
 
