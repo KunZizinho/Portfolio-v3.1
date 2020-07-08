@@ -20,9 +20,18 @@ app.set("view engine", "handlebars");
 //  handlebar routes
 app.get("/", function(req, res) {
 
-    res.render("");
+    res.render("index");
   });
 
+app.get("/portfolio", function(req, res) {
+
+    res.render("portfolio");
+  });
+
+app.get("/bar", function(req, res) {
+
+    res.render("bar");
+  });
 
 // Starts the server to begin listening
 app.listen(PORT, function() {
