@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/KunZizinho/Portfolio-v3.1#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4"
   }
 }
