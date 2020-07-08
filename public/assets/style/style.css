@@ -151,15 +151,38 @@ body{
      border-bottom-left-radius: 5px;
      border-top-right-radius: 5px;
      border-top-left-radius: 5px;
-     padding: 3px;
+     padding: 20px;
    }
 
   #email, #linkedin{
     float: left;
-    background: transparent;
+    background: blue;
     text-align: left;
     border: none;
+    border-radius: 100px;
+    margin-left: 25px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+  }
 
+  /* #email:hover{
+    background-color: transparent;
+  } */
+
+  #email:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  /* #linkedin:hover{
+    background-color: transparent;
+  } */
+
+  #linkedin:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
 /* ovdje index stil zavrsava */
 
@@ -180,6 +203,14 @@ body{
      padding-left: 100px;
      font-size: 150px;
      font-weight: 150px;
+     color: darkred;
+   }
+
+   #countDown{
+     text-align: center;
+     padding-left: 30px;
+     font-size: 80px;
+     font-weight: 80px;
      color: darkred;
    }
 
